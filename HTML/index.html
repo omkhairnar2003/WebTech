@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <label for="username">Username</label><br>
+        <input type="text" name="username" id="username"><br><br>
+        <label for="password">Password</label><br>
+        <input type="text" name="password" id="password"><br><br>
+        <button>Submit</button>
+    </form>
+    <script>
+        let input1 = document.querySelector('input[name="username"]');
+        let input2 = document.querySelector('input[name="password"]');
+        let button = document.querySelector('button');
+        
+        // Listen for input in the username field
+        input1.addEventListener('input', function() {
+            console.log('Username: ' + input1.value);
+        });
+
+        // Listen for input in the password field
+        input2.addEventListener('input', function() {
+            console.log('Password: ' + input2.value);
+        });
+
+        // Example: Disable button if either field is empty
+        function updateButtonState() {
+            button.disabled = !input1.value || !input2.value;
+        }
+
+        input1.addEventListener('input', updateButtonState);
+        input2.addEventListener('input', updateButtonState);
+
+        // Initialize button state on page load
+        updateButtonState();
+    </script>
+</body>
+</html>

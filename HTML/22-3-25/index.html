@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="button">
+        <button>click</button>button<br><br>
+        <input type="checkbox">
+        <button>click</button>checkbox<br><br>
+        <input type="color">
+        <button>click</button>color<br><br>
+        <input type="date">
+        <button>click</button>date<br><br>
+        <input type="datetime">
+        <button>click</button>datetime<br><br>
+        <input type="datetime-local">
+        <button>click</button>datetime-local<br><br>
+        <input type="email">
+        <button>click</button>email<br><br>
+        <input type="file">
+        <button>click</button>file<br><br>
+        <input type="hidden">
+        <button>click</button>hidden<br><br>
+        <input type="image">
+        <button>click</button>image<br><br>
+        <input type="month">
+        <button>click</button>month<br><br>
+        <input type="number">
+        <button>click</button>number<br><br>
+        <input type="password">
+        <button>click</button>password<br><br>
+        <input type="radio">
+        <button>click</button>radio<br><br>
+        <input type="range">
+        <button>click</button>range<br><br>
+        <input type="reset">
+        <button>click</button>reset<br><br>
+        <input type="search">
+        <button>click</button>search<br><br>
+        <input type="submit">
+        <button>click</button>submit<br><br>
+        <input type="tel">
+        <button>click</button>tel<br><br>
+        <input type="text">
+        <button>click</button>text<br><br>
+        <input type="time">
+        <button>click</button>time<br><br>
+        <input type="url">
+        <button>click</button>url<br><br>
+        <input type="week">
+        <button>click</button>week<br><br>
+    </form>
+    <script>
+        let input = document.querySelector("input");
+        input.addEventListener("input",(e) => {
+            console.log(e.target.value);
+        });
+    </script>
+</body>
+</html>

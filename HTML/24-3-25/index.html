@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!-- radio button for langauge selection -->
+        <input id="Marathi" type="radio" name="language"> 
+        <label for="Marathi">Marathi</label>
+        <input id="Hindi" type="radio" name="language"> 
+        <label for="Hindi">Hindi</label>
+        <input id="English" type="radio" name="language"> 
+        <label for="English">English</label>
+        <button type="submit">submit</button><br><br>
+        <!-- radio button for gender selection -->
+        <input id="Male" type="radio" name="gender"> 
+        <label for="Male">Male</label>
+        <input id="female" type="radio" name="gender"> 
+        <label for="female">Female</label>
+        <input id="other" type="radio" name="gender"> 
+        <label for="other">other</label>
+        <button>click</button><br><br>
+        <!-- Label tag-->
+        <label for="x">Write your feedback :</label>
+        <input type="text" id="x">
+        <button type="submit">click</button><br><br>
+        <!-- textarea tag-->
+        <textarea rows="10" cols="10"></textarea>
+        <button type="submit">submit</button><br><br>
+        <!-- select and option tag -->
+        <!-- state dropdown -->
+        <select name="State" id="">
+            <option value="">Select the State</option>
+            <option value="maharashtra">maharashtra</option>
+            <option value="Punjab">punjab</option>
+            <option value="kerala">kerala</option>
+            <option value="UP">UP</option>
+            </select><br><br>
+            <!-- cars dropdown -->
+        <select name="cars" id="">
+            <option value="">Select the cars</option>
+            <option value="mustang">mustang</option>
+            <option value="xuv700">xuv700</option>
+            <option value="audi">audi</option>
+            <option value="Gwagon">Gwagon</option>
+        </select>
+        <!-- fieldset tag -->
+        <fieldset>
+            <legend>Admission form</legend>
+        </fieldset>
+        <!-- readonly and disabled attributes-->
+        <input type="text" value="i am not url" readonly>
+        <button disabled>click</button><br><br>
+        <!-- placeholder minlength and maxlength attributes -->
+        <input type="text" placeholder="username" minlength="12" maxlength="12"><br><br>
+        <!-- autofocus and accesskey attributes-->
+        <input type="text" autofocus accesskey="a"><br><br>
+        <input type="text" accesskey="b"><br><br>
+        <input type="text" accesskey="c"><br><br>
+        <button>click</button>
+    </form>
+    <script>
+        let select = Document.queryselector('select');
+        select.addEventListener("input",(e)=>{
+        console.log(e.target.name+":"+e.target.value);
+        });
+    </script>
+</body>
+</html>

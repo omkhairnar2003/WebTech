@@ -1,0 +1,328 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: :sans-serif;
+}
+#mainBody{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(142, 18, 142),rgb(54, 9, 54));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*top: 0;
+    position: sticky;*/
+}
+.nameBox{
+    width: 40%;
+}
+.nameBox>h1{
+    text-align: center;
+    color: aqua;
+    font-size: 150px;
+}
+.nameBox>p{
+    color: white;
+    font-size: 40px;
+}
+nav{
+    width: 6vh;
+    height: 60vh;
+    /*border: 2px solid;*/
+    position: fixed;
+    left: 20px;
+    z-index: 100;
+}
+nav>div{
+    /*border: 1px solid white;*/
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    margin: 10px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav>div>a>i{
+    color: white;
+    font-size: 20px;
+}
+.aboutSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* top: 0; */
+    /* position: sticky; */
+    background-image: linear-gradient(rgb(142, 18, 142),rgb(54, 9, 54));
+}
+.aboutSection>main{
+    width: 80%;
+    height: 80%;
+    /* border: 2px solid; */
+    display: flex;
+}
+.aboutSection>main>article{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(116, 63, 116);
+    border-radius: 30px ;
+    margin: 10px;
+    /* border: 3px solid  red; */
+
+}
+.about{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    /* background: lightcoral; */
+    
+}
+.aboutArticle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 30px;
+    color: white;
+}
+.about>div{
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+    background: black;
+    border-radius: 30px;
+    margin: 10px;
+    /* border: 3px solid; */
+}
+.about li{
+    padding: 10px;
+}
+.about ul{
+    padding-top: auto;
+}
+.aboutSection h1{
+    font-size: 50px;
+}
+.aboutArticle>p{
+    font-size: 25px;
+}
+.projects{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(142, 18, 142),rgb(54, 9, 54));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects>main{
+    width: 80%;
+    height: 80%;
+    border: 3px solid;
+}
+.projects>main>h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: beige;
+    padding: 30px;
+}
+.projects>main>article{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(139, 76, 139);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.projects>main>article>div{
+    width: 45%;
+    height: 45%;
+    /* border: 3px solid; */
+    background: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    color: white;
+    border: 3px solid white;
+}
+.projects>main>article>div>h1{
+    font-size: 30px;
+}
+.projects>main>article>div>p{
+    font-size: 15px;
+}
+.experience, .achievements, .contact{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(142, 18, 142),rgb(54, 9, 54));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience>main,
+.achievements>main, 
+.contact>main{
+    width: 80%;
+    height: 80%;
+    border: 3px solid;
+}
+.experience>main>h1{
+        font-size: 50px;
+        text-align: center;
+        text-decoration: underline;
+        color: beige;
+        padding: 30px;
+}
+.experience>main>article{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(139, 76, 139);
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 30px;
+}
+.experience>main>article>h3{
+    font-size: 30px;
+}
+.experience>main>article>p{
+    font-size: 20px;
+}
+.achievements{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(142, 18, 142),rgb(54, 9, 54));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.achievements>main{
+    width: 80%;
+    height: 80%;
+    border: 3px solid;
+}
+.achievements>main>h1{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    color: beige;
+    padding: 30px;
+}
+.achievements>main>article{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(139, 76, 139);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.achievements>main>article>div{
+    width: 45%;
+    height: 45%;
+    /* border: 3px solid; */
+    background: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    color: white;
+    border: 3px solid white;
+}
+.achievements>main>article>div>h1{
+    font-size: 30px;
+}
+.achievements>main>article>div>p{
+    font-size: 15px;
+    .contact > main > h1 {
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline;
+  color: beige;
+  padding: 30px;
+}
+.contact > main > article {
+  width: 100%;
+  height: 80%;
+  background-color: #0000005c;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+}
+.info,
+.contactForm {
+  width: 45%;
+  height: 85%;
+  background: #00000020;
+  padding: 20px;
+}
+.contact > main {
+  width: 80%;
+  height: 80%;
+  border: 3px solid;
+}
+.info p {
+  font-size: 20px;
+  color: rgb(196, 196, 196);
+  padding: 10px;
+}
+.info a {
+  color: rgb(196, 196, 196);
+}
+.allLinks {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 40px;
+}
+.allLinks a {
+  color: rgb(196, 196, 196);
+  padding-bottom: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+input,
+textarea {
+  color: rgb(196, 196, 196);
+  height: 50px;
+  background: #0000004e;
+  outline: none;
+  border: none;
+  padding: 20px;
+}
+textarea {
+  height: 200px;
+}
+form > a {
+  display: inline-block;
+  color: rgb(196, 196, 196);
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  background: rgb(49, 49, 49);
+}

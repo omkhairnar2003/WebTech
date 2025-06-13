@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: ani;
+    animation-duration: 10s;
+    border-radius: 20px;
+    animation-iteration-count: infinite;
+}
+.box1{
+    width: 60vh;
+    height: 60vh;
+    background: #eb8a8a;
+}
+.box2{
+    width: 50vh;
+    height: 50vh;
+    background: #e56262;
+}
+.box3{
+    width: 40vh;
+    height: 40vh;
+    background: #e74444;
+}
+.box4{
+    width: 30vh;
+    height: 30vh;
+    background: #e63333;
+}
+.box5{
+    width: 20vh;
+    height: 20vh;
+    background: #f52121;
+}
+.box6{
+    width: 10vh;
+    height: 10vh;
+    background: #d00404;
+}
+@keyframes ani{
+    to{
+        transform: rotate(360deg);
+    }
+}

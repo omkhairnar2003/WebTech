@@ -1,0 +1,39 @@
+/* input:focus{
+    color: red;
+    background: orange;;
+}
+p:hover{
+    background: magenta;
+    font-style: italic;
+}
+p{
+    width: 100px;
+    background: gainsboro;
+    color: gray;
+    padding: 10px;
+    display: none;
+}
+button:hover~p{
+    display: block;
+} */
+/* div:first-child{
+    background: magenta;
+} */
+/* div:nth-child(2){
+    background: red;
+}
+section:nth-child(1){
+    background: yellow;
+} */
+/* td{
+    padding: 10px;
+}
+tr:nth-child(even){
+    background: lightblue;
+}
+tr:nth-child(odd){
+    background: beige;
+} */
+[title]:{
+    color: blue;
+}

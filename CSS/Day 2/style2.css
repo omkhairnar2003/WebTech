@@ -1,0 +1,40 @@
+p::first-letter{
+    /* first letter */
+    font-size: 30px;
+}
+p::first-line{
+    /* first line */
+    background: red;
+}
+p::selection{
+    /* Selection */
+    background: red;
+    color: yellow;
+}
+p::before{
+    /* before */
+    content: "Hello";
+    background: purple;
+    font-size: 50px;
+}
+p::after{
+    /* after */
+    content: "Thank You";
+    background: orange;
+    font-size: 50px;
+}
+#M::marker{
+    content: "🥭";
+}
+#p::marker{
+    content: "🍍";
+}
+#g::marker{
+    content: "🍏";
+}
+#o::marker{
+    content: "🍊";
+}
+#b::marker{
+    content: "🍌";
+}

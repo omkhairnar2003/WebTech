@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    box-sizing:border-box ;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgImg div{
+    width: 80vw;
+    height: 80vh;
+    border: 5px solid;
+    font-size: 50px;
+    background-image: url(./assets/download.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: aliceblue;
+}
+.bgGrd div{
+    width: 80vw;
+    height: 80vh;
+    border-radius: 50%;
+    font-size: 50px;
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: aliceblue;
+}
+.bgRadGrd div{
+    width: 80vw;
+    height: 80vh;
+    border-radius: 50%;
+    font-size: 50px;
+    background-image: radial-gradient(circle, #fa0e1e, #71f00f);
+    color: aliceblue;
+}
+.coGrd div{
+    width: 80vw;
+    height: 80vh;
+    border-radius: 50%;
+    font-size: 50px;
+    background-image: conic-gradient(#e8251f, #23bbd6,purple,green,yellow,blue,red);
+    color: aliceblue;
+}
+.repLinGrd div{
+    width: 80vw;
+    height: 80vh;
+    border-radius: 50%;
+    font-size: 50px;
+    background-image:repeating-linear-gradient(red 90%,yellow 100%)
+}
+.repRadGrd div{
+    width: 80vw;
+    height: 80vh;
+    border-radius: 50%;
+    font-size: 50px;
+    background-image: repeating-radial-gradient(black 8%,white 10%);
+}

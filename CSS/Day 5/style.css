@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    box-sizing:border-box ;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div
+{
+    width: 300px;
+    height: 300px;
+    border: 3px solid;
+    background-color: hsl(360, 100%, 50%,0.5);
+    /* background-color: #ee11ee; */
+    /* background-color: rgb(155,255,200); */
+    
+    /*Hexadecimal color combination
+    0 1 2 4 5 6 7 8
+    q a b c d e f
+    #b35ea0
+     R G B */
+}
+h1{
+    position: absolute;
+    top: 50%;
+    right: 45%;
+}

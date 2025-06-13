@@ -1,0 +1,150 @@
+/* p{
+    color: red;
+} */
+/* #special{
+    font-size: 30px;
+} */
+/* .highlight{
+    color: red;
+    font-size: 30px;
+    background-color: yellow;
+}  */
+/* h1,p,span{
+    color: green;
+} */
+/* *{
+    border: 1px solid black;
+} */
+/* div p{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;} */
+/* div > p{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+} */
+/* h1+p{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+} */
+/* h2~p{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+} */
+/* p::first-letter{
+    font-size: 35px;
+    font-weight: bold;
+} */
+/* p::first-line{
+    background: red;
+} */
+/* h1::before{
+    content: "👉";
+} */
+/* h1::after{
+    content: "👈";
+} */
+/* li::marker{
+    color: red;
+} */
+/* p::selection{
+    background: royalblue;
+} */
+/* .container{
+    color: purple;
+} */
+
+/* ul ul li{
+    color: darkblue;
+    background: rebeccapurple;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+} */
+
+/* li:nth-child(odd){
+    background: skyblue ;
+} */
+/* p:nth-child(even){
+    color: magenta;
+ } */
+
+/* li:last-child{
+    color: navy;
+    font-style: italic;
+    font-size: 30px;
+} */
+
+/* li:first-child{
+    font-weight: bold;
+} */
+
+/* div>p{
+    color: navy;
+    font-style: italic;
+    font-size: 30px;
+} */
+
+/* .text.important{
+    color: navy;
+    font-style: italic;
+    font-size: 30px;
+} */
+
+/* #unique.special{
+    color: navy;
+    font-style: italic;
+    font-size: 30px;
+} */
+ /* Task 25 */
+/* a:link{
+    color: blue;
+    font-style: italic;
+}
+a:hover{
+    color: red;
+    font-weight: italic;
+}
+a:visited{
+    color: yellow;
+
+}
+a:active{
+    color: black;
+} */
+
+/* button:hover{
+    background: navy;
+    color: whitesmoke;
+} */
+
+/* tr:nth-child(even){
+    background: blue;
+    color: white;
+} */
+
+/* input[type="password"]{
+    background: yellowgreen;
+} */
+
+/* #box p{
+    color: red;
+    font-style: bold;
+    font-size: 20px;
+}
+#box p:hover{
+    width: 200px;
+    height: 200px;
+    background: pink ;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} */
+
+/* input[type="checkbox"]:checked{
+    outline: 4px solid purple;
+} */

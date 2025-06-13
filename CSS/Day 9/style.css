@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* main{
+    width: 500px;
+    height: 500px;
+    background: red;
+    display: flex;
+    flex-wrap: wrap;
+} */
+/* div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 35px 10px 10px;
+} */
+div{
+    width: 200px;
+    height: 200px;
+    /* border-width: 10px 20px 10px 20px;
+    border-style: groove;
+    border-color: black; */
+    background: cyan;
+    /* border-top:5px solid red; */
+    /* border-radius: 10% 50% 30% 70%; */
+    border-radius: 0 50% 50% 50%;
+    rotate: 45deg;
+}

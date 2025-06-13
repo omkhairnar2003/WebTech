@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+} */
+/* main{ */
+    /* absolute unit
+    1)px
+    2)cm
+    3)mm
+    4)in
+    5)pc
+    6)pt
+    width: 50px;
+    height: 50px;
+    background: lightcoral;
+}
+div{ */
+    /* relative unit 
+    1)% (parent referance)
+    2)vw (ref=viewport width)
+    3)vh (ref=viewport height)
+    4)em (element ref=parent)
+    5)rem (root element ref=HTML element(16 default size)
+    6)vmin (min between w/h)
+    7)vmax (max between w/h)*/
+    /* width: 50vw;
+    height: 50vh;
+    background: greenyellow;
+} */
+/* div{
+    font-size: 32px;
+}
+p{
+    font-size: 1em;
+} */
+/* div{ */
+    /* vmax & vmin */
+    /* width: 30vmax;
+    height: 30vmax;
+    background: lightskyblue;
+} */

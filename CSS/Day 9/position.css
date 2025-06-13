@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* div{ */
+    /* height: 100px;
+    width: 100px; */
+    /* background: red; */
+    /* position: fixed;
+    top: 100px;
+    left: 100px; */
+    /* position: sticky;
+    top: 0px; */
+/* }
+.mouse{
+    font-size: 100px;
+    position: sticky;
+    top: 50%;
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    background: orange;
+    position: sticky;
+    top: 0px;
+} */
+main{
+    height: 300px;
+    width: 300px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+        height: 200px;
+        width: 200px;
+        background: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+div{
+        height: 100px;
+        width: 100px;
+        background: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0px;
+}

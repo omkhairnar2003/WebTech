@@ -1,0 +1,22 @@
+div+div{
+    /* adjacent sibling + */
+    background: red;
+}
+p+div{
+    background: purple;
+}
+div~section{
+    /* general sibling ~ */
+    background: yellow;
+}
+p+div~p{
+    background: blue;
+}
+div>section{
+    /* child selector > */
+    background: green;
+}
+div h1{
+    /* Descendant selector (Space) */
+    background: lightcoral;
+}
